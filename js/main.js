@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var $headings = $('h2');
+  var $paragraphs = $('p');
 
-  $headings.text("I’m Jessica Small, and I’m learning jQuery!");
+    $paragraphs.css({"color": "blue", "lineHeight": 1.5, "fontWeight": "bold"});
 });
